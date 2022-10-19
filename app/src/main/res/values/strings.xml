@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+    <string name="logo">logo</string>
+    <string name="sign_up">Signup</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="upper_sign_up">SIGN UP</string>
+    <string name="upper_login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="go_to_signup"><![CDATA[New here? Go to signup ->]]></string>
+    <string name="go_to_login"><![CDATA[Already a user? Go to login ->]]></string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="post">Post</string>
+    <string name="description">Description</string>
+
+    <string name="username_already_exists">Username already exists</string>
+    <string name="sign_up_failed">SignUp failed</string>
+    <string name="login_success">Login success</string>
+    <string name="login_failed">Login failed</string>
+    <string name="cannot_update_user">Cannot update user</string>
+    <string name="cannot_create_user">Cannot create user</string>
+    <string name="cannot_retrieve_user_data">Cannot retrieve user data</string>
+    <string name="fill_in_all_fields">Please fill in all fields</string>
+    <string name="login">Login</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="bio">Bio</string>
+    <string name="logout">Logout</string>
+    <string name="change_profile_picture">Change profile picture</string>
+    <string name="following">Following</string>
+    <string name="follow">Follow</string>
+    <string name="no_posts_available">No posts available</string>
+    <string name="logged_out">Logged out</string>
+    <string name="post_create">Post successfully created</string>
+    <string name="post_create_fail">Unable to create post</string>
+    <string name="error_username_unavailable">Error : username unavailable, Unable to create post</string>
+    <string name="posts_fetch_faill">Cannot fetch posts</string>
+    <string name="posts_search_fail">Cannot search posts</string>
+    <string name="personalized_feed_get_fail">Cannot get personalized feed</string>
+    <string name="feed_get_fail">Cannot get feed</string>
+    <string name="post_like_fail">Unable to like post</string>
+    <string name="comment_retrieve_fail">Cannot retrieve comment</string>
+    <string name="comment">Comment</string>
+    <string name="no_comments_available">No comments available</string>
+    <string name="comment_create_fail">Cannot create comment</string>
+
+</resources>
