@@ -33,7 +33,7 @@ import com.example.instagramclone.components.*
 import com.example.instagramclone.data.PostData
 import com.example.instagramclone.util.Constants.POST
 
-//TODO 영상 찍을 당시 lazyGrid가 없었기 때문에 해당 api를 사용하지 않음, 이걸 사용해서 만들어보기
+//TODO lazyGrid 가 없었기 때문에 해당 api를 사용하지 않음, 이걸 사용해서 만들어보기
 data class PostRow(
     var post1: PostData? = null,
     var post2: PostData? = null,
@@ -51,6 +51,7 @@ data class PostRow(
     }
 }
 
+// My posts screen where I can create new posts and see posts that I have created
 @Composable
 fun MyPostsScreen(navController: NavController, viewModel: SharedViewModel) {
 

@@ -30,6 +30,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
+// Feed screen that will display posts from followed users / general posts list if we haven't followed anyone
 @Composable
 fun FeedScreen(navController: NavController, viewModel: SharedViewModel) {
 
