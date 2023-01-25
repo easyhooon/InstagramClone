@@ -38,7 +38,10 @@ fun LoginScreen(navController: NavController, viewModel: SharedViewModel) {
     // to use this focus to dismiss the keyboard
     val focus = LocalFocusManager.current
 
-    Box(modifier = Modifier.fillMaxSize()) {
+    Box(
+        modifier = Modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -46,7 +49,7 @@ fun LoginScreen(navController: NavController, viewModel: SharedViewModel) {
                 .verticalScroll(
                     rememberScrollState()
                 ),
-            horizontalAlignment = Alignment.CenterHorizontally
+            horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             val emailState = remember { mutableStateOf(TextFieldValue()) }
             val passwordState = remember { mutableStateOf(TextFieldValue()) }

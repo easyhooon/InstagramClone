@@ -36,7 +36,10 @@ fun SignupScreen(navController: NavController, viewModel: SharedViewModel) {
 
     val focus = LocalFocusManager.current
 
-    Box(modifier = Modifier.fillMaxSize()) {
+    Box(
+        modifier = Modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -44,7 +47,8 @@ fun SignupScreen(navController: NavController, viewModel: SharedViewModel) {
                 .verticalScroll(
                     rememberScrollState()
                 ),
-            horizontalAlignment = Alignment.CenterHorizontally
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
         ) {
             // remember 와 rememberSaveable 의 차이점
             // -> configration change 가 일어날때 상태를 유지시키기 위해 rememberSaveable 사용
