@@ -1,8 +1,8 @@
-package com.example.instagramclone.components
+package com.example.instagramclone.extensions
 
 import android.os.Parcelable
 import androidx.navigation.NavController
-import com.example.instagramclone.DestinationScreen
+import com.example.instagramclone.ui.DestinationScreen
 
 data class NavParams(
     val name: String,

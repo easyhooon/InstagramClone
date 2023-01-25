@@ -1,4 +1,4 @@
-package com.example.instagramclone.data
+package com.example.instagramclone.data.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -1,4 +1,4 @@
-package com.example.instagramclone
+package com.example.instagramclone.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,12 +11,17 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.instagramclone.components.NotificationMessage
-import com.example.instagramclone.data.PostData
-import com.example.instagramclone.ui.auth.LoginScreen
-import com.example.instagramclone.ui.auth.ProfileScreen
-import com.example.instagramclone.ui.auth.SignupScreen
-import com.example.instagramclone.ui.main.*
+import com.example.instagramclone.ui.components.NotificationMessage
+import com.example.instagramclone.data.model.PostData
+import com.example.instagramclone.ui.screen.auth.LoginScreen
+import com.example.instagramclone.ui.screen.auth.ProfileScreen
+import com.example.instagramclone.ui.screen.auth.SignupScreen
+import com.example.instagramclone.ui.screen.CommentsScreen
+import com.example.instagramclone.ui.screen.FeedScreen
+import com.example.instagramclone.ui.screen.MyPostsScreen
+import com.example.instagramclone.ui.screen.NewPostScreen
+import com.example.instagramclone.ui.screen.SearchScreen
+import com.example.instagramclone.ui.screen.SinglePostScreen
 import com.example.instagramclone.ui.theme.InstagramCloneTheme
 import com.example.instagramclone.util.Constants.COMMENTS_POST_ID
 import com.example.instagramclone.util.Constants.FEED

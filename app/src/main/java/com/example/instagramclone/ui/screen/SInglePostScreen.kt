@@ -1,4 +1,4 @@
-package com.example.instagramclone.ui.main
+package com.example.instagramclone.ui.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -19,12 +19,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
-import com.example.instagramclone.DestinationScreen
+import com.example.instagramclone.ui.DestinationScreen
 import com.example.instagramclone.R
-import com.example.instagramclone.SharedViewModel
-import com.example.instagramclone.components.CommonDivider
-import com.example.instagramclone.components.CommonImage
-import com.example.instagramclone.data.PostData
+import com.example.instagramclone.ui.SharedViewModel
+import com.example.instagramclone.ui.components.CommonDivider
+import com.example.instagramclone.ui.components.CommonImage
+import com.example.instagramclone.data.model.PostData
 
 @Composable
 fun SinglePostScreen(navController: NavController, viewModel: SharedViewModel, post: PostData) {

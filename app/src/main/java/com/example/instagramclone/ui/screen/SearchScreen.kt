@@ -1,4 +1,4 @@
-package com.example.instagramclone.ui.main
+package com.example.instagramclone.ui.screen
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
@@ -25,10 +25,10 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.instagramclone.DestinationScreen
-import com.example.instagramclone.SharedViewModel
-import com.example.instagramclone.components.NavParams
-import com.example.instagramclone.components.navigateTo
+import com.example.instagramclone.ui.DestinationScreen
+import com.example.instagramclone.ui.SharedViewModel
+import com.example.instagramclone.extensions.NavParams
+import com.example.instagramclone.extensions.navigateTo
 import com.example.instagramclone.util.Constants.POST
 
 @Composable

@@ -1,4 +1,4 @@
-package com.example.instagramclone.ui.main
+package com.example.instagramclone.ui.screen
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -22,9 +22,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.instagramclone.R
-import com.example.instagramclone.SharedViewModel
-import com.example.instagramclone.components.CommonProgressSpinner
-import com.example.instagramclone.data.CommentData
+import com.example.instagramclone.ui.SharedViewModel
+import com.example.instagramclone.ui.components.CommonProgressSpinner
+import com.example.instagramclone.data.model.CommentData
 
 @Composable
 fun CommentsScreen(navController: NavController, viewModel: SharedViewModel, postId: String) {

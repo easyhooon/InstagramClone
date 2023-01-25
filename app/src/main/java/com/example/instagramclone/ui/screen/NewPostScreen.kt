@@ -1,4 +1,4 @@
-package com.example.instagramclone.ui.main
+package com.example.instagramclone.ui.screen
 
 import android.net.Uri
 import androidx.compose.foundation.Image
@@ -20,9 +20,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
 import com.example.instagramclone.R
-import com.example.instagramclone.SharedViewModel
-import com.example.instagramclone.components.CommonDivider
-import com.example.instagramclone.components.CommonProgressSpinner
+import com.example.instagramclone.ui.SharedViewModel
+import com.example.instagramclone.ui.components.CommonDivider
+import com.example.instagramclone.ui.components.CommonProgressSpinner
 
 
 @Composable

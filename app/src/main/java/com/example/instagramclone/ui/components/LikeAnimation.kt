@@ -1,4 +1,4 @@
-package com.example.instagramclone.components
+package com.example.instagramclone.ui.components
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDp

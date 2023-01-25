@@ -1,4 +1,4 @@
-package com.example.instagramclone.ui.main
+package com.example.instagramclone.ui.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -11,9 +11,9 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.instagramclone.DestinationScreen
+import com.example.instagramclone.ui.DestinationScreen
 import com.example.instagramclone.R
-import com.example.instagramclone.components.navigateTo
+import com.example.instagramclone.extensions.navigateTo
 
 enum class BottomNavigationItem(val icon: Int, val navDestinations: DestinationScreen) {
     FEED(R.drawable.ic_home, DestinationScreen.Feed),

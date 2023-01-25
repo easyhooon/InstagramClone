@@ -1,11 +1,11 @@
-package com.example.instagramclone.components
+package com.example.instagramclone.ui.screen.auth
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.navigation.NavController
-import com.example.instagramclone.DestinationScreen
-import com.example.instagramclone.SharedViewModel
+import com.example.instagramclone.ui.DestinationScreen
+import com.example.instagramclone.ui.SharedViewModel
 
 @Composable
 fun CheckSignedIn(navController: NavController, viewModel: SharedViewModel) {

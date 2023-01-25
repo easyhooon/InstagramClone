@@ -1,4 +1,4 @@
-package com.example.instagramclone.ui.main
+package com.example.instagramclone.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -20,10 +20,15 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.instagramclone.DestinationScreen
-import com.example.instagramclone.SharedViewModel
-import com.example.instagramclone.components.*
-import com.example.instagramclone.data.PostData
+import com.example.instagramclone.ui.DestinationScreen
+import com.example.instagramclone.ui.SharedViewModel
+import com.example.instagramclone.data.model.PostData
+import com.example.instagramclone.extensions.NavParams
+import com.example.instagramclone.extensions.navigateTo
+import com.example.instagramclone.ui.components.CommonImage
+import com.example.instagramclone.ui.components.CommonProgressSpinner
+import com.example.instagramclone.ui.components.LikeAnimation
+import com.example.instagramclone.ui.components.UserImageCard
 import com.example.instagramclone.util.Constants.POST
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

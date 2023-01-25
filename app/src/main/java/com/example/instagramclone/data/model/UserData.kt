@@ -1,4 +1,4 @@
-package com.example.instagramclone.data
+package com.example.instagramclone.data.model
 
 // firebase required empty constructor
 // so every parameters are nullable

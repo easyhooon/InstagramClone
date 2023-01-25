@@ -1,4 +1,4 @@
-package com.example.instagramclone.ui.auth
+package com.example.instagramclone.ui.screen.auth
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -23,13 +23,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.instagramclone.DestinationScreen
+import com.example.instagramclone.ui.DestinationScreen
 import com.example.instagramclone.R
-import com.example.instagramclone.SharedViewModel
-import com.example.instagramclone.components.CommonDivider
-import com.example.instagramclone.components.CommonImage
-import com.example.instagramclone.components.CommonProgressSpinner
-import com.example.instagramclone.components.navigateTo
+import com.example.instagramclone.ui.SharedViewModel
+import com.example.instagramclone.ui.components.CommonDivider
+import com.example.instagramclone.ui.components.CommonImage
+import com.example.instagramclone.ui.components.CommonProgressSpinner
+import com.example.instagramclone.extensions.navigateTo
 
 @Composable
 fun ProfileScreen(navController: NavController, viewModel: SharedViewModel) {

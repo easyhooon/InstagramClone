@@ -1,9 +1,9 @@
-package com.example.instagramclone.components
+package com.example.instagramclone.ui.components
 
 import android.widget.Toast
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
-import com.example.instagramclone.SharedViewModel
+import com.example.instagramclone.ui.SharedViewModel
 
 @Composable
 fun NotificationMessage(viewModel: SharedViewModel) {

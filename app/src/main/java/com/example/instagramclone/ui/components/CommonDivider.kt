@@ -1,4 +1,4 @@
-package com.example.instagramclone.components
+package com.example.instagramclone.ui.components
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Divider

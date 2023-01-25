@@ -1,13 +1,14 @@
-package com.example.instagramclone
+package com.example.instagramclone.ui
 
 import android.net.Uri
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import com.example.instagramclone.data.CommentData
-import com.example.instagramclone.data.Event
-import com.example.instagramclone.data.PostData
-import com.example.instagramclone.data.UserData
+import com.example.instagramclone.R
+import com.example.instagramclone.data.model.CommentData
+import com.example.instagramclone.util.Event
+import com.example.instagramclone.data.model.PostData
+import com.example.instagramclone.data.model.UserData
 import com.example.instagramclone.di.StringResourcesProvider
 import com.example.instagramclone.util.Constants.COMMENTS
 import com.example.instagramclone.util.Constants.FOLLOWING
